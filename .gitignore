@@ -1,0 +1,30 @@
+# ===== Python 缓存 =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# ===== 打包/构建产物 =====
+build/
+dist/
+*.spec.bak
+_pycache__/
+
+# ===== 引擎二进制（非源码，需随 exe 同放 engines/） =====
+engines/
+
+# ===== 模型权重（训练产物，约 10MB，非源码） =====
+detector.onnx
+
+# ===== 运行时日志（自动生成） =====
+飞鲨象棋_连线日志.txt
+飞鲨象棋_自检.txt
+*.log
+
+# ===== 项目私有记忆（不公开） =====
+.workbuddy/
+
+# ===== 操作系统/编辑器 =====
+.DS_Store
+Thumbs.db
+*.swp
